@@ -11,7 +11,7 @@ noverifydeps=yes
 license="Mozilla Public License Version 2.0"
 homepage="https://brave.com"
 distfiles="https://github.com/brave/brave-browser/releases/download/v${version}/brave-origin_${version}_amd64.deb"
-checksum=17977aeb4b78b79d8bdbb82df1217d9ffe789662be09ea997aa95b4bce308ef5
+checksum=19170c74d632001777cc6c47e21cbe1925d5b3935ee4e5977b97d646d07d8fef
 nostrip=yes
 
 do_extract() {
