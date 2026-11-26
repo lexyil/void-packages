@@ -1,6 +1,6 @@
 # Template file for 'brave-origin-bin'
 pkgname=brave-origin-bin
-version=1.100.58
+version=1.100.59
 revision=1
 only_for_archs="x86_64"
 short_desc="Secure, fast and private web browser with ad blocker"
@@ -11,7 +11,7 @@ noverifydeps=yes
 license="Mozilla Public License Version 2.0"
 homepage="https://brave.com"
 distfiles="https://github.com/brave/brave-browser/releases/download/v${version}/brave-origin_${version}_amd64.deb"
-checksum=4ccec14d1b7c36487e1d84a1cab424ab94e93b94b4176206e4c11a32213dc61d
+checksum=ce38a50afc3449ae9c305100608c6abab1a30c85f751915187bd7c634b2b736f
 nostrip=yes
 
 do_extract() {
