@@ -28,7 +28,8 @@ do_install() {
 		discord \
 		discord.png \
 		postinst.sh \
-		updater_bootstrap
+		updater_bootstrap \
+		launcher.conf
 	do
 		vcopy "${item}" "${package_location}"
 	done
